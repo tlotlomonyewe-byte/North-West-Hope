@@ -111,7 +111,7 @@ export default function Contact() {
               </div>
 
               <a
-                href="https://maps.app.goo.gl/D3BKEYNjRXGwCsV6?g_st=ac"
+                href="https://maps.app.goo.gl/J9p5wHGBS5MLAipE9?g_st=ac"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-primary text-black font-black px-6 py-3 rounded-full hover:bg-primary/90 transition-all shadow-[0_0_20px_rgba(255,208,0,0.3)] hover:shadow-[0_0_28px_rgba(255,208,0,0.5)] text-sm"
