@@ -1,5 +1,6 @@
 import samsungImg from "@assets/1000501024_1780116301364.jpg";
 import iphoneImg from "@assets/1000501026_1780116290670.jpg";
+import lcdImg from "@assets/HONOR_LCD_1780432937128.webp";
 
 export type Product = {
   id: number;
@@ -8,10 +9,6 @@ export type Product = {
   category: "samsung" | "iphone" | "honor" | "tecno" | "redmi";
   imageUrl: string;
 };
-
-const honorImg  = "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&auto=format&fit=crop";
-const tecnoImg  = "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=400&auto=format&fit=crop";
-const redmiImg  = "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=400&auto=format&fit=crop";
 
 export const products: Product[] = [
   // Samsung (10)
@@ -46,26 +43,26 @@ export const products: Product[] = [
   { id: 27, name: "iPhone 15 Pro Max", price: 750, category: "iphone", imageUrl: iphoneImg },
 
   // Honor (10)
-  { id: 28, name: "Honor X6",      price: 300, category: "honor", imageUrl: honorImg },
-  { id: 29, name: "Honor X6a",     price: 300, category: "honor", imageUrl: honorImg },
-  { id: 30, name: "Honor X7",      price: 320, category: "honor", imageUrl: honorImg },
-  { id: 31, name: "Honor X7a",     price: 320, category: "honor", imageUrl: honorImg },
-  { id: 32, name: "Honor X8",      price: 340, category: "honor", imageUrl: honorImg },
-  { id: 33, name: "Honor X8a",     price: 340, category: "honor", imageUrl: honorImg },
-  { id: 34, name: "Honor X9",      price: 360, category: "honor", imageUrl: honorImg },
-  { id: 35, name: "Honor X9a",     price: 360, category: "honor", imageUrl: honorImg },
-  { id: 36, name: "Honor 90 Lite", price: 380, category: "honor", imageUrl: honorImg },
-  { id: 37, name: "Honor 200 Lite",price: 400, category: "honor", imageUrl: honorImg },
+  { id: 28, name: "Honor X6",       price: 300, category: "honor", imageUrl: lcdImg },
+  { id: 29, name: "Honor X6a",      price: 300, category: "honor", imageUrl: lcdImg },
+  { id: 30, name: "Honor X7",       price: 320, category: "honor", imageUrl: lcdImg },
+  { id: 31, name: "Honor X7a",      price: 320, category: "honor", imageUrl: lcdImg },
+  { id: 32, name: "Honor X8",       price: 340, category: "honor", imageUrl: lcdImg },
+  { id: 33, name: "Honor X8a",      price: 340, category: "honor", imageUrl: lcdImg },
+  { id: 34, name: "Honor X9",       price: 360, category: "honor", imageUrl: lcdImg },
+  { id: 35, name: "Honor X9a",      price: 360, category: "honor", imageUrl: lcdImg },
+  { id: 36, name: "Honor 90 Lite",  price: 380, category: "honor", imageUrl: lcdImg },
+  { id: 37, name: "Honor 200 Lite", price: 400, category: "honor", imageUrl: lcdImg },
 
   // Tecno (5)
-  { id: 38, name: "Tecno Spark 10",  price: 300, category: "tecno", imageUrl: tecnoImg },
-  { id: 39, name: "Tecno Spark 20",  price: 300, category: "tecno", imageUrl: tecnoImg },
-  { id: 40, name: "Tecno Pop 8",     price: 310, category: "tecno", imageUrl: tecnoImg },
-  { id: 41, name: "Tecno Camon 20",  price: 320, category: "tecno", imageUrl: tecnoImg },
-  { id: 42, name: "Tecno Pova 5",    price: 330, category: "tecno", imageUrl: tecnoImg },
+  { id: 38, name: "Tecno Spark 10", price: 300, category: "tecno", imageUrl: lcdImg },
+  { id: 39, name: "Tecno Spark 20", price: 300, category: "tecno", imageUrl: lcdImg },
+  { id: 40, name: "Tecno Pop 8",    price: 310, category: "tecno", imageUrl: lcdImg },
+  { id: 41, name: "Tecno Camon 20", price: 320, category: "tecno", imageUrl: lcdImg },
+  { id: 42, name: "Tecno Pova 5",   price: 330, category: "tecno", imageUrl: lcdImg },
 
   // Redmi (3)
-  { id: 43, name: "Redmi 12",       price: 300, category: "redmi", imageUrl: redmiImg },
-  { id: 44, name: "Redmi 13C",      price: 300, category: "redmi", imageUrl: redmiImg },
-  { id: 45, name: "Redmi Note 13",  price: 320, category: "redmi", imageUrl: redmiImg },
+  { id: 43, name: "Redmi 12",      price: 300, category: "redmi", imageUrl: lcdImg },
+  { id: 44, name: "Redmi 13C",     price: 300, category: "redmi", imageUrl: lcdImg },
+  { id: 45, name: "Redmi Note 13", price: 320, category: "redmi", imageUrl: lcdImg },
 ];
