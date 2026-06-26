@@ -1,0 +1,13 @@
+[build]
+  command = "pnpm --filter @workspace/north-west-hope run build"
+  publish = "artifacts/north-west-hope/dist/public"
+
+[build.environment]
+  NODE_VERSION = "22"
+  BASE_PATH = "/"
+  PORT = "3000"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
