@@ -1,0 +1,124 @@
+5:07:00 PM: build-image version: cbbb2660d860fe70694043ec05851a3910a2bf39 (noble-new-builds)
+5:07:00 PM: buildbot version: 863d78834c7df98fbadcc32a31460eb244115cc2
+5:07:01 PM: Fetching cached dependencies
+5:07:01 PM: Failed to fetch cache, continuing with build
+5:07:01 PM: Starting to prepare the repo for build
+5:07:01 PM: No cached dependencies found. Cloning fresh repo
+5:07:01 PM: git clone --filter=blob:none https://github.com/tlotlomonyewe-byte/North-West-Hope
+5:07:01 PM: Preparing Git Reference pull/1/head
+5:07:02 PM: Custom publish path detected. Proceeding with the specified path: 'artifacts/north-west-hope/dist/public'
+5:07:02 PM: Custom build command detected. Proceeding with the specified command: 'pnpm --filter @workspace/north-west-hope run build'
+5:07:02 PM: Installing dependencies
+5:07:02 PM: mise ~/.config/mise/config.toml tools: python@3.14.3
+5:07:02 PM: mise ~/.config/mise/config.toml tools: ruby@3.4.8
+5:07:03 PM: mise ~/.config/mise/config.toml tools: go@1.26.2
+5:07:03 PM: Downloading and installing node v22.23.1...
+5:07:03 PM: Downloading https://nodejs.org/dist/v22.23.1/node-v22.23.1-linux-x64.tar.xz...
+5:07:03 PM: Computing checksum with sha256sum
+5:07:03 PM: Checksums matched!
+5:07:06 PM: Now using node v22.23.1 (npm v10.9.8)
+5:07:06 PM: Enabling Node.js Corepack
+5:07:07 PM: pnpm workspaces detected
+5:07:07 PM: Installing npm packages using pnpm version 10.30.3
+5:07:07 PM: Scope: all 9 workspace projects
+5:07:07 PM: Lockfile is up to date, resolution step is skipped
+5:07:07 PM: Progress: resolved 1, reused 0, downloaded 0, added 0
+5:07:07 PM: Packages: +485
+5:07:07 PM: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+5:07:08 PM: Progress: resolved 485, reused 0, downloaded 172, added 96
+5:07:09 PM: Progress: resolved 485, reused 0, downloaded 300, added 166
+5:07:10 PM: Progress: resolved 485, reused 0, downloaded 371, added 196
+5:07:11 PM: Progress: resolved 485, reused 0, downloaded 485, added 300
+5:07:12 PM: Progress: resolved 485, reused 0, downloaded 485, added 485, done
+5:07:12 PM: .../esbuild@0.27.3/node_modules/esbuild postinstall$ node install.js
+5:07:12 PM: .../esbuild@0.27.3/node_modules/esbuild postinstall: Done
+5:07:12 PM: devDependencies:
+5:07:12 PM: + prettier 3.8.3
+5:07:12 PM: + typescript 5.9.3
+5:07:12 PM: . preinstall$ sh -c 'rm -f package-lock.json yarn.lock; case "$npm_config_user_agent" in pnpm/*) ;; *) echo "Use pnpm instead" >&2; exit 1 ;; esac'
+5:07:12 PM: . preinstall: Done
+5:07:12 PM: Done in 5.2s using pnpm v10.30.3
+5:07:12 PM: npm packages installed using pnpm
+5:07:13 PM: Successfully installed dependencies
+5:07:13 PM: Detected 0 framework(s)
+5:07:14 PM: Starting build script
+5:07:14 PM: Section completed: initializing
+5:07:16 PM: ​
+5:07:16 PM: Netlify Build                                                 
+5:07:16 PM: ────────────────────────────────────────────────────────────────
+5:07:16 PM: ​
+5:07:16 PM: ❯ Version
+5:07:16 PM:   @netlify/build 36.0.0
+5:07:16 PM: ​
+5:07:16 PM: ❯ Flags
+5:07:16 PM:   accountId: 6a1d8945e20aba07f00a923c
+5:07:16 PM:   baseRelDir: true
+5:07:16 PM:   buildId: 6a3e9593b9c70600088c1519
+5:07:16 PM:   deployId: 6a3e9593b9c70600088c151b
+5:07:17 PM: ​
+5:07:17 PM: ❯ Current directory
+5:07:17 PM:   /opt/build/repo
+5:07:17 PM: ​
+5:07:17 PM: ❯ Config file
+5:07:17 PM:   /opt/build/repo/netlify.toml
+5:07:17 PM: ​
+5:07:17 PM: ❯ Context
+5:07:17 PM:   deploy-preview
+5:07:17 PM: ​
+5:07:17 PM: build.command from netlify.toml                               
+5:07:17 PM: ────────────────────────────────────────────────────────────────
+5:07:17 PM: ​
+5:07:17 PM: $ pnpm --filter @workspace/north-west-hope run build
+5:07:17 PM: > @workspace/north-west-hope@0.0.0 build /opt/build/repo/artifacts/north-west-hope
+5:07:17 PM: > vite build --config vite.config.ts
+5:07:17 PM: vite v7.3.3 building client environment for production...
+5:07:17 PM: transforming...
+5:07:21 PM: Starting post processing
+5:07:21 PM: Skipping form detection
+5:07:21 PM: Post processing - header rules
+5:07:21 PM: Post processing - redirect rules
+5:07:21 PM: Post processing done
+5:07:21 PM: Section completed: postprocessing
+5:07:21 PM: src/components/ui/tooltip.tsx (2:0): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+src/components/ui/sheet.tsx (2:0): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+✓ 2227 modules transformed.
+5:07:21 PM: rendering chunks...
+5:07:21 PM: computing gzip size...
+5:07:21 PM: dist/public/index.html                                      1.40 kB │ gzip:   0.55 kB
+5:07:21 PM: dist/public/assets/HONOR_LCD_1780432937128-DzI_b37o.webp   37.06 kB
+5:07:21 PM: dist/public/assets/1000500959_1780116242325-4q5quY4H.jpg   84.30 kB
+5:07:21 PM: dist/public/assets/1000501026_1780116290670-ToQRPFLC.jpg  133.03 kB
+5:07:21 PM: dist/public/assets/1000501024_1780116301364-BgZF3bEx.jpg  166.01 kB
+5:07:21 PM: dist/public/assets/index-NC2qF9Oa.css                     121.28 kB │ gzip:  18.56 kB
+5:07:21 PM: dist/public/assets/index-CgblG_6q.js                      519.54 kB │ gzip: 164.52 kB
+5:07:21 PM: 
+5:07:21 PM: (!) Some chunks are larger than 500 kB after minification. Consider:
+5:07:21 PM: - Using dynamic import() to code-split the application
+5:07:21 PM: - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+5:07:21 PM: - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+5:07:21 PM: ✓ built in 3.68s
+5:07:21 PM: ​
+5:07:21 PM: (build.command completed in 4.5s)
+5:07:21 PM: ​
+5:07:21 PM: Deploy site                                                   
+5:07:21 PM: ────────────────────────────────────────────────────────────────
+5:07:21 PM: ​
+5:07:21 PM: Starting to deploy site from 'artifacts/north-west-hope/dist/public'
+5:07:21 PM: Calculating files to upload
+5:07:21 PM: 0 new file(s) to upload
+5:07:21 PM: 0 new function(s) to upload
+5:07:21 PM: Section completed: deploying
+5:07:21 PM: Site deploy was successfully initiated
+5:07:21 PM: ​
+5:07:21 PM: (Deploy site completed in 204ms)
+5:07:21 PM: ​
+5:07:21 PM: Netlify Build Complete                                        
+5:07:21 PM: ────────────────────────────────────────────────────────────────
+5:07:21 PM: ​
+5:07:21 PM: (Netlify Build completed in 4.9s)
+5:07:22 PM: Caching artifacts
+5:07:22 PM: Section completed: building
+5:07:23 PM: Site is live ✨
+5:07:23 PM: Uploading cache of size 68.6MB
+5:07:23 PM: Section completed: cleanup
+5:07:24 PM: Finished processing build request in 23.065s
